@@ -46,4 +46,6 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
+const comandsync = require("./deploy-commands")
+
 client.login(token);
