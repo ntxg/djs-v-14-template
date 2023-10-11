@@ -3,7 +3,7 @@
 
 ## Prerequisites
 
-1. Node (>17.x.x)
+1. Node (>16.x.x)
 2. Git
 
 ## Installation
