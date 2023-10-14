@@ -23,6 +23,8 @@ for (const folder of commandFolders) {
 	}
 }
 
+const comandsync = require("./deploy-commands")
+
 client.once(Events.ClientReady, () => {
 	console.log('Ready!');
 });
@@ -46,6 +48,6 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
-const comandsync = require("./deploy-commands")
+
 
 client.login(token);
